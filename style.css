@@ -1,0 +1,7 @@
+* {padding:0; margin:0;}
+.slide {margin:50px auto; width:600px; position:relative; border:1px solid #e0e0e0; box-shadow:0 0 1px #e0e0e0; overflow:hidden;border-radius:4px;text-align:center;}
+.slide > .slide-images {display:flex;transition:all 0.5s;border-bottom:1px solid #e0e0e0;width:600px;height:300px;}
+.slide > .buttons {display:block;height:60px;font-size:0;letter-spacing;background:#f1f1f1;}
+.slide > .buttons > span {display:inline-block;border-right:1px solid #e0e0e0;width:60px;height:60px;line-height:120px;cursor:pointer;}
+.buttons::before {content:'';border-right:1px solid #e0e0e0;height:60px;display:inline-block;}
+.slide > .buttons > .active {background:white;}
